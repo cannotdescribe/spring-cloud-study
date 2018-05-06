@@ -1,13 +1,12 @@
 
-server:
-  port: 12001
 spring:
   application:
-    name: eureka-client
+    name: eureka-feign-upload-server
+
+server:
+  port: 12102
 
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:10001/eureka/
-
-

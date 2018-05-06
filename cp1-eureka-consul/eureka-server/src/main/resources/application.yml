@@ -1,6 +1,6 @@
 
 server:
-  port: 1001
+  port: 10001
 spring:
   application:
     name: eureka-server
@@ -10,4 +10,6 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
+    service-url:
+      default-zone: http://localhost:10001/eureka/
 

@@ -2,9 +2,9 @@ spring:
   application:
     name: eureka-consumer
 server:
-  port: 2101
+  port: 12101
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:1001/eureka/
+      defaultZone: http://localhost:10001/eureka/
 
